@@ -11,7 +11,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 ORIGIN = "TLV"
-NOTIFY_PRICE = 70
+NOTIFY_PRICE = 100
 
 
 def send_telegram_msg(text):
